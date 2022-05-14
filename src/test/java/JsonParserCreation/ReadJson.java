@@ -19,7 +19,7 @@ public class ReadJson {
 
 		JSONParser parser = new JSONParser();
 
-		Reader reader = new FileReader(".//test.json");
+		Reader reader = new FileReader(".//test2.json");
 
 		JSONObject ob = (JSONObject) parser.parse(reader);
 		

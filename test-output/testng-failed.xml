@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BasicConcept.get.AutomateGet">
+      <class name="E2EFlow.Scenario">
         <methods>
-          <include name="hamcrest_assert_on_extracted_response"/>
+          <include name="beforeTest"/>
+          <include name="postRequest"/>
         </methods>
-      </class> <!-- BasicConcept.get.AutomateGet -->
+      </class> <!-- E2EFlow.Scenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

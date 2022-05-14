@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-29T09:46:09 IST" name="Default suite" finished-at="2022-01-29T09:46:15 IST" duration-ms="6501">
+  <suite started-at="2022-05-14T22:54:48 IST" name="Default suite" finished-at="2022-05-14T22:55:01 IST" duration-ms="12913">
     <groups>
     </groups>
-    <test started-at="2022-01-29T09:46:09 IST" name="Default test" finished-at="2022-01-29T09:46:15 IST" duration-ms="6501">
-      <class name="Files.DownloadFile">
-        <test-method signature="download_file()[pri:0, instance:Files.DownloadFile@1613674b]" started-at="2022-01-29T09:46:09 IST" name="download_file" finished-at="2022-01-29T09:46:15 IST" duration-ms="6444" status="PASS">
+    <test started-at="2022-05-14T22:54:48 IST" name="Default test" finished-at="2022-05-14T22:55:01 IST" duration-ms="12913">
+      <class name="E2EFlow.Scenario">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:E2EFlow.Scenario@bd4dc25]" started-at="2022-05-14T22:54:48 IST" name="beforeTest" finished-at="2022-05-14T22:54:48 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- download_file -->
-      </class> <!-- Files.DownloadFile -->
+        </test-method> <!-- beforeTest -->
+        <test-method signature="postRequest()[pri:0, instance:E2EFlow.Scenario@bd4dc25]" started-at="2022-05-14T22:54:48 IST" name="postRequest" finished-at="2022-05-14T22:55:01 IST" duration-ms="12869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+      </class> <!-- E2EFlow.Scenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
